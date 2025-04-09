@@ -1,0 +1,205 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cádiz",
+        "tipo": "Cultura",
+        "temporada": "Primavera",
+        "presupuesto": "Bajo",
+        "icon": "aquarium",
+        "why_going": "Ciudad luminosa, con historia milenaria y alma marinera.",
+        "descripcion_corta": "Cádiz mezcla playas, cultura y un ritmo de vida alegre.",
+        "descripcion_larga": "Fundada hace más de 3.000 años, Cádiz es la ciudad más antigua de Occidente. Su casco histórico refleja influencias fenicias, romanas y árabes. La sociedad gaditana es abierta, festiva y orgullosa de su identidad. Su economía se apoya en el puerto, el turismo y la pesca."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.2924,
+          36.5297
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Granada",
+        "tipo": "Cultura",
+        "temporada": "Otoño",
+        "presupuesto": "Medio",
+        "icon": "castle",
+        "why_going": "Por la Alhambra, las tapas y el embrujo andalusí.",
+        "descripcion_corta": "Granada une herencia árabe, vida estudiantil y montaña.",
+        "descripcion_larga": "Granada fue capital del último reino nazarí. Su legado árabe se respira en la Alhambra, el Albaicín y la cultura local. Ciudad joven, abierta y vibrante gracias a su universidad. Vive del turismo, la agricultura y el comercio local."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5995,
+          37.1773
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "San Sebastián",
+        "tipo": "Gastronomía",
+        "temporada": "Verano",
+        "presupuesto": "Alto",
+        "icon": "restaurant",
+        "why_going": "Capital mundial del pintxo y de playas elegantes.",
+        "descripcion_corta": "Un paraíso gastronómico entre bahías y montes verdes.",
+        "descripcion_larga": "San Sebastián destaca por su cocina, su bahía de La Concha y una vibrante escena cultural. Ciudad elegante con fuerte identidad vasca. Su sociedad combina tradición y modernidad. Economía impulsada por el turismo, la gastronomía y congresos internacionales."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.9812,
+          43.3183
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Valencia",
+        "tipo": "Cultura",
+        "temporada": "Primavera",
+        "presupuesto": "Medio",
+        "icon": "museum",
+        "why_going": "Por la Ciudad de las Artes y el sabor de la paella.",
+        "descripcion_corta": "Fusión de tradición mediterránea y arquitectura futurista.",
+        "descripcion_larga": "Valencia une historia, arte y mar. Desde su casco antiguo hasta la vanguardista Ciudad de las Artes, la ciudad mantiene una rica vida social y cultural. Economía diversa: turismo, tecnología y agricultura."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3763,
+          39.4699
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Santiago de Compostela",
+        "tipo": "Espiritual",
+        "temporada": "Otoño",
+        "presupuesto": "Bajo",
+        "icon": "religious-christian",
+        "why_going": "Destino final del Camino de Santiago, lleno de energía.",
+        "descripcion_corta": "Un lugar sagrado que mezcla fe, historia y hospitalidad.",
+        "descripcion_larga": "Santiago de Compostela es punto de encuentro espiritual y cultural. La catedral atrae peregrinos de todo el mundo. Su población es acogedora y universitaria. Economía basada en servicios, educación y turismo religioso."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.5448,
+          42.8805
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bilbao",
+        "tipo": "Cultura",
+        "temporada": "Invierno",
+        "presupuesto": "Medio",
+        "icon": "art-gallery",
+        "why_going": "Por su transformación urbana y el Museo Guggenheim.",
+        "descripcion_corta": "Industrial, artística y con una identidad fuerte.",
+        "descripcion_larga": "Bilbao ha pasado de ciudad industrial a referencia cultural europea. El Guggenheim marcó un antes y un después. Sociedad orgullosa y trabajadora. Economía basada en servicios, arte, y logística."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.935,
+          43.263
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sevilla",
+        "tipo": "Cultura",
+        "temporada": "Primavera",
+        "presupuesto": "Medio",
+        "icon": "music",
+        "why_going": "Por su arte flamenco, Semana Santa y alma andaluza.",
+        "descripcion_corta": "La ciudad del color, el calor y la historia viva.",
+        "descripcion_larga": "Sevilla es alegría, tradición y pasión. Desde la Giralda hasta Triana, respira cultura popular. Sociedad abierta y hospitalaria. Economía centrada en turismo, agricultura y servicios públicos."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9845,
+          37.3891
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Barcelona",
+        "tipo": "Urbano",
+        "temporada": "Verano",
+        "presupuesto": "Alto",
+        "icon": "town-hall",
+        "why_going": "Modernismo, playa y cultura en una ciudad cosmopolita.",
+        "descripcion_corta": "Gaudí, mar, barrios vibrantes y creatividad constante.",
+        "descripcion_larga": "Barcelona es una de las ciudades más vivas de Europa. Con fuerte personalidad catalana, combina tradición y vanguardia. Economía basada en turismo, tecnología, diseño y comercio internacional."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1734,
+          41.3851
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Madrid",
+        "tipo": "Urbano",
+        "temporada": "Invierno",
+        "presupuesto": "Medio",
+        "icon": "theatre",
+        "why_going": "Por su energía inagotable, cultura y vida de calle.",
+        "descripcion_corta": "Madrid es movimiento, arte, tapas y gente directa.",
+        "descripcion_larga": "La capital de España es vibrante y acogedora. Centro político y cultural, con vida nocturna única y museos de talla mundial. Economía diversificada: servicios, tecnología, administración y turismo."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.7038,
+          40.4168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ronda",
+        "tipo": "Naturaleza",
+        "temporada": "Primavera",
+        "presupuesto": "Bajo",
+        "icon": "mountain",
+        "why_going": "Por sus acantilados, puentes y paisaje andaluz.",
+        "descripcion_corta": "Un balcón sobre montañas y barrancos espectaculares.",
+        "descripcion_larga": "Ronda es una joya enclavada sobre el Tajo. Ciudad pequeña pero con una historia romana y árabe imponente. Sociedad tranquila, ideal para el turismo slow. Economía centrada en agricultura, vino y turismo rural."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.1677,
+          36.742
+        ]
+      }
+    }
+  ]
+}
