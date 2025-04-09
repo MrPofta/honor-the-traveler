@@ -19,7 +19,7 @@ map.on('load', () => {
     type: 'symbol',
     source: 'destinos',
     layout: {
-      'icon-image': ['get', 'icon'],
+      'icon-image': 'marker-15',
       'icon-size': 1.2,
       'icon-allow-overlap': true
     }
