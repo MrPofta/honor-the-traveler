@@ -1,4 +1,3 @@
-
 mapboxgl.accessToken = 'pk.eyJ1IjoiamFpbWVuZHJldyIsImEiOiJjbTk0ZXM2YXkwdHV3MmpxdGJzcW4xYTlmIn0.ifMABnlIksh4AjS7j-jCSw';
 
 const map = new mapboxgl.Map({
@@ -47,4 +46,9 @@ map.on('load', () => {
   map.on('mouseleave', 'destinos-layer', () => {
     map.getCanvas().style.cursor = '';
   });
+
+  // 🧪 Marcador fijo en Madrid para test
+  new mapboxgl.Marker()
+    .setLngLat([-3.7038, 40.4168])
+    .addTo(map);
 });
