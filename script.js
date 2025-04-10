@@ -27,6 +27,7 @@ map.on('load', () => {
 
   map.on('click', 'destinos-layer', (e) => {
     const props = e.features[0].properties;
+    console.log("Clic detectado en:", props.name); // <-- AQUÍ dentro
     const html = `
       <div style="font-family: Arial, sans-serif; font-size: 14px; background: #fff9ec; padding: 12px; border-radius: 8px; color: #333; box-shadow: 0 2px 6px rgba(0,0,0,0.1); max-width: 280px;">
         <h3 style="margin-top: 0; font-size: 16px;">${props.name}</h3>
