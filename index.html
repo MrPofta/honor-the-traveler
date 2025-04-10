@@ -1,21 +1,99 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Honor the Traveler</title>
-  <link href="style.css" rel="stylesheet" />
-  <link href="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.css" rel="stylesheet" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Honor the Traveler - Destinos en España</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <h1>Honor the Traveler</h1>
-  </header>
-  <main>
-    <div id="map"></div>
-  </main>
-  <script src="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.js"></script>
-  <script src="script.js"></script>
+    <header>
+        <h1>Honor the Traveler</h1>
+    </header>
+    
+    <main>
+        <div class="container">
+            <!-- Panel de filtros -->
+            <div class="filter-panel">
+                <div class="filter-group">
+                    <label for="tipo-destino">Tipo de Destino:</label>
+                    <select id="tipo-destino">
+                        <option value="todos">Todos</option>
+                        <option value="playa">Playa</option>
+                        <option value="cultura">Cultura</option>
+                        <option value="naturaleza">Naturaleza</option>
+                        <option value="aventura">Aventura</option>
+                    </select>
+                </div>
+                
+                <div class="filter-group">
+                    <label for="temporada">Temporada Ideal:</label>
+                    <select id="temporada">
+                        <option value="todas">Todas</option>
+                        <option value="primavera">Primavera</option>
+                        <option value="verano">Verano</option>
+                        <option value="otoño">Otoño</option>
+                        <option value="invierno">Invierno</option>
+                    </select>
+                </div>
+                
+                <div class="filter-group">
+                    <label for="presupuesto">Presupuesto:</label>
+                    <select id="presupuesto">
+                        <option value="todos">Todos</option>
+                        <option value="economico">Económico</option>
+                        <option value="moderado">Moderado</option>
+                        <option value="premium">Premium</option>
+                    </select>
+                </div>
+                
+                <button id="aplicar-filtros">Aplicar Filtros</button>
+            </div>
+            
+            <!-- Perfil del viajero -->
+            <div class="traveler-profile">
+                <div class="profile-header">
+                    <img src="https://via.placeholder.com/50" alt="Perfil" class="profile-pic">
+                    <div class="profile-info">
+                        <h3>Tu Perfil</h3>
+                        <p><span>Laura García</span> • 28 años • 🇪🇸 España</p>
+                    </div>
+                </div>
+                <div class="profile-type">
+                    <p>Tipo de viajero: <strong>Explorador cultural</strong></p>
+                </div>
+                <div class="profile-interests">
+                    <p>Intereses:</p>
+                    <div class="interest-icons">
+                        <span class="interest-icon" title="Cultura"><i class="fas fa-landmark"></i></span>
+                        <span class="interest-icon" title="Gastronomía"><i class="fas fa-utensils"></i></span>
+                        <span class="interest-icon" title="Naturaleza"><i class="fas fa-mountain"></i></span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Contenedor del mapa -->
+            <div id="map" class="map-container"></div>
+            
+            <!-- Carrusel de destinos -->
+            <div class="destination-carousel">
+                <button class="carousel-btn prev-btn"><i class="fas fa-chevron-left"></i></button>
+                <div class="carousel-container" id="destinations-container">
+                    <!-- Las tarjetas serán generadas dinámicamente con JavaScript -->
+                </div>
+                <button class="carousel-btn next-btn"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Honor the Traveler. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
